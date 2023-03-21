@@ -44,9 +44,10 @@ body {
 .main-menu {
 	display: flex;
 	justify-content: center;
+	gap: 20px;
 }
 .main-menu-item {
-	padding: 2px 12px;
+	padding: 10px 12px;
 	border-radius: 4px;
 	font-size: 16px;
 	cursor: pointer;
@@ -125,4 +126,8 @@ body {
 }
 .main-buttons-nextBtn:hover {
 	opacity: 0.5;
+}
+
+#startBtn:active{
+    transform: scale(0.98);
 }
