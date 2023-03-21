@@ -6,6 +6,3 @@ const shortBreak = document.querySelector(".shortBreak");
 const longBreak = document.querySelector(".longBreak");
 const pomodoro = document.querySelector(".pomodoro");
 
-console.log("mruodil");
-console.log("sardor");
-console.log("developer");
