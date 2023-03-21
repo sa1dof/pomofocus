@@ -23,3 +23,4 @@ shortBreak.addEventListener("click", () => {
   document.body.style.backgroundColor = "#5faeee";
   timer.innerHTML = "05:00";
 });
+console.log("hghhhf");
