@@ -8,3 +8,4 @@ const pomodoro = document.querySelector(".pomodoro");
 
 console.log("mruodil");
 console.log("sardor");
+console.log("developer");
