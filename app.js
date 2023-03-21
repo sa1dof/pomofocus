@@ -79,5 +79,13 @@ function handleActionBtnClick(actionBtn) {
 	}
 }
 
-
+function init() {
+    startBtn.addEventListener("click", handleStart);
+  
+    actionBtns.forEach((btn) => {
+      btn.addEventListener("click", () => handleActionBtnClick(btn));
+    });
+  }
+  
+init();
 
